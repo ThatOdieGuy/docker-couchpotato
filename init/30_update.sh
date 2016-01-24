@@ -5,5 +5,6 @@
 [ "$ADVANCED_DISABLEUPDATES" ] && exit 0
 
 cd /app/couchpotato
+git checkout develop
 /sbin/setuser abc git pull
 
